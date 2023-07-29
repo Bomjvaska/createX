@@ -1,0 +1,29 @@
+.footer{
+  background: #1E212C;
+  &__nav{
+    display:flex;
+    column-gap: 88px;
+    padding: 80px 0 60px;
+  }
+  &__info{
+    width: 25%;
+  }
+  &__text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #FFFFFF60;
+    margin: 25px 0 40px;
+  }
+  &__icons{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 80px;
+    width: 50%;
+
+  }
+}
